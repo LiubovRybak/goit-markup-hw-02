@@ -140,6 +140,12 @@ footer {
     background-color: var(--btn-blue-color);
 } 
 
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--btn-blue-color);
+}
+
  /* Benefits */
 
  .benefit-title {
@@ -200,7 +206,7 @@ footer {
 
 .contacts-address:hover,
 .contacts-address:focus {
-    color: var(--white-color);
+    color: var(--blue-color);
 }
 
 .studio-footer {
