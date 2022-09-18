@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: var(--white-color);
 }
 
 :root {
@@ -10,6 +11,7 @@ body {
     --blue-color: #2196F3;
     --dirty-white-color: #F5F4FA;
     --gray-color: #2F303A;
+    --btn-blue-color: #188CE8;
 }
 
 .visually-hidden {
@@ -65,6 +67,10 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+}
+
+footer {
+    background-color: var(--gray-color);
 }
 
 /* Header  */
@@ -131,6 +137,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--white-color);
+    background-color: var(--btn-blue-color);
 } 
 
  /* Benefits */
@@ -168,11 +175,14 @@ body {
 .team-text {  
     color: var(--light-gray-color);
 }
+
+.team-item {
+    background-color: var(--white-color);
+}
  
 /* Contacts */
 
 .contacts {
-    background: var(--gray-color);
     font-style: normal;
 }
 
@@ -186,6 +196,15 @@ body {
 .contact-link:hover,
 .contact-link:focus{
     color: var(--blue-color);
+}
+
+.contacts-address:hover,
+.contacts-address:focus {
+    color: var(--white-color);
+}
+
+.studio-footer {
+    color: var(--white-color);
 }
 
 /* Portfolio */
